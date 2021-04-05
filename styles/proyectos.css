@@ -1,0 +1,59 @@
+.projects-section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.projects-description {
+    width: 50vw;
+    font-size: 20px;
+    font-weight: bold;
+    color:gray;
+    text-align: center;
+    max-width: 600px;
+    align-self: center;
+}
+.cards-project {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    justify-content: center;
+    align-self: center;
+}
+.skill-project {
+    color: black;
+    /*font-size: 10px;*/
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 50px;
+    transition: 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-icon {
+    display: block;
+}
+.text-skill {
+font-size: 15px;
+}
+
+/*Transiciones*/
+
+
+
+.skill-project:hover {
+    border: 1px solid tomato;
+    border-radius: 8px;
+    color: tomato;
+}
+.skill-project:active {
+    box-shadow: 0px 0px 29px -13px #024F59;
+}

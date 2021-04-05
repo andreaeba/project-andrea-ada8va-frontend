@@ -1,0 +1,155 @@
+/* Contactame */
+.section-contact {
+    background-color: rgb(231, 210, 206);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid #f6f7fb;
+    position: relative;
+}
+.contact {
+    display: flex;
+    background-color: #ffffff;
+    padding: 80px 60px;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+    width: 80vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact-column {
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.section-description {
+    width: 30vw;
+    font-size: 16px;
+    font-weight: bold;
+    color:gray;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.contact-icon {
+color: #024F59;
+padding: 10px;
+}
+.icon-and-text {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.social-item-text {
+    color: black;
+}
+
+
+
+
+
+
+
+/*Escribime*/
+
+.contact-form {
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-social-links {
+    display: flex;
+    flex-direction: column;
+}
+.contact-social-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.social-item-text {
+    margin-left: 20px;
+    align-self: flex-end;
+}
+.input-name-apellido {
+    display: flex;
+    flex-wrap: row;
+    /*max-width: 100%;
+    border: 1px solid black;*/
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 600;
+    margin-top: 5px;
+    
+}
+.item-form {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;   
+    flex-grow: 1;
+    position: relative;
+}
+
+input {
+    /*width: 230px;*/
+    height: 40px;
+    background-color: #f6f7fb;
+    border: 1px solid #f6f7fb;
+    border-radius: 100px;
+   /* margin-left: 10px;*/
+    margin-right: 20px;
+    padding-left: 15px;
+}
+
+textarea {
+    background-color: #f6f7fb;
+    border: 1px solid #f6f7fb;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+button {
+    background-color: #024F59;
+    color: white;
+    padding: 15px 40px;
+    border: white 1px solid;
+    border-radius: 100px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Transiciones*/
+
+/* Seccion Contactame Íconos Redes Sociales*/
+
+.icon-and-text:hover .contact-icon {
+    background-color: #024F59;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon-and-text:hover .social-item-text{
+    color: #024F59;
+}
+
+/*
+.contact-icon:hover {
+    background-color: yellow;
+    color: turquoise;
+    padding: 10px;
+    border-radius: 50%;
+}
+.social-item-text:hover {
+    color: yellow;
+}*/

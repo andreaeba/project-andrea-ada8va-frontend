@@ -1,17 +1,20 @@
 .navegation-bar {
     font-family: 'Nunito', sans-serif;
     width: 100vw;
-    /*height: 100px;*/
-    background: linear-gradient(#642874, #B53167);
+    background: #024F59;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    box-shadow: -1px 37px 34px 10px rgba(206, 204, 204, 0.8);
+    /*overflow-x: hidden;*/
 }
 .nav-menu {
     display: flex;
     flex-direction: row;
     padding: 20px;
+    align-items: center;
 }
 ul {
     list-style: none;
@@ -19,18 +22,50 @@ ul {
 a {
     text-decoration: none;
 }
-.nav-item {
-    font-weight: 100;
+.nav-item-1 {
+    font-weight: bold;
     font-size: 18px;
-    padding: 20px
+    padding: 13px;
+    color: white;
+    /*background-color: tomato;*/
+    border-radius: 100px;
+    margin-right: 10px;
 }
-.contac {
+.nav-contact {
     width: 150px;
     height: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: #FF6347;
     border-radius: 100px;
     margin-right: 100px;
     align-self: center;
     text-align: center;
-    padding: 15px;
+    padding: 13px;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0px 0px 29px -13px white;
+}
+
+/*Transiciones*/
+
+.nav-item-1:hover {
+    transition-property: color;
+    color: tomato;
+}
+
+.nav-contact:hover {
+    transition-property: background-color;
+    background-color: rgb(241, 141, 123);
+    transition: 0.2s;
+    color: white;
+}
+.nav-contact:active {
+    background-color: rgb(212, 78, 54);    
+}
+.nav-item-1:active {
+    border: white 1px solid;
+    background-color: #024F59;
+    color:tomato;
+    box-shadow: 0px 0px 29px -13px white;
+    border:0.5px solid white;
+    transition-duration: 0.3s;
 }

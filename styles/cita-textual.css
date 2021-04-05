@@ -1,0 +1,29 @@
+.quote-section {
+    background-color: #024F59;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon-quote {
+    align-self: center;
+}
+.quote-text {
+    font-size: 20px;
+    max-width: 800;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.author-quote {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.fa-quote-left {
+    color: white;
+    font-size: 100px;
+}
